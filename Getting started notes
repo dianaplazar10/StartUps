@@ -1,0 +1,13 @@
+Bug 1: 
+While starting the application after downloading from spring initializer, faced the below bug. 
+"Failed to configure a DataSource: no embedded datasource could be configured."
+This was because of 2 reasons:
+1. since the datasoure, username and pwd was not configured in application.properties .
+Solution:
+ Hence installed postgres, updated the application.properties and updated pom with postgre driver dependency
+
+
+Bug 2:
+when trying to install homebrew, failed with below error.
+"zsh: command not found: homebrew"
+Solution: https://osxdaily.com/2023/04/19/fix-brew-command-not-found-on-mac-with-zsh/ 

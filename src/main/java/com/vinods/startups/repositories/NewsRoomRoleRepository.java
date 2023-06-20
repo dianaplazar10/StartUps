@@ -1,0 +1,10 @@
+package com.vinods.startups.repositories;
+
+import com.vinods.startups.models.NewsRoomRole;
+import com.vinods.startups.models.NewsRoomUser;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.rest.core.annotation.RepositoryRestResource;
+
+@RepositoryRestResource
+public interface NewsRoomRoleRepository extends JpaRepository<NewsRoomRole, Long> {
+}
