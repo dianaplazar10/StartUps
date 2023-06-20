@@ -7,11 +7,10 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name="roles")
-public class NewsRoomRole {
+@Table(name="newsroomuser")
+public class StartUpsAppUser {
     @Id
-    private String role;
-
+    private long id;
+    private String email;
+    private String name;
 }
-
-

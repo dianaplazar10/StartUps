@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.vinods</groupId>
-	<artifactId>newscabin</artifactId>
+	<artifactId>StartUps</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>startups</name>
 	<description>Demo project for Spring Boot</description>
